@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+Thumbs.db
+
+# Third-party sample models (Khronos glTF samples, separate licenses).
+# See public/models/README.md for the download URLs; the app runs without
+# them via primitive stand-ins.
+public/models/*.glb
+public/models/*.gltf
